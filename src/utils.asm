@@ -1,5 +1,5 @@
 
-INCLUDE "src/include/hardware.inc/hardware.inc"
+INCLUDE "hardware.inc"
 
 
 SECTION "Memset", ROM0[$08] ; So that it lands on a `rst`

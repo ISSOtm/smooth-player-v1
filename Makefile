@@ -34,9 +34,9 @@ RGBFIX  := $(RGBDS)rgbfix
 ROM = $(BINDIR)/$(ROMNAME).$(ROMEXT)
 
 # Argument constants
-INCDIRS  = $(SRCDIR)/ $(SRCDIR)/include/
+INCDIRS  = $(SRCDIR)/
 WARNINGS = all extra
-ASFLAGS  = -p $(PADVALUE) $(addprefix -i,$(INCDIRS)) $(addprefix -W,$(WARNINGS))
+ASFLAGS  = -p $(PADVALUE) $(addprefix -I,$(INCDIRS)) $(addprefix -W,$(WARNINGS))
 LDFLAGS  = -p $(PADVALUE)
 FIXFLAGS = -p $(PADVALUE) -v -i "$(GAMEID)" -k "$(LICENSEE)" -l $(OLDLIC) -m $(MBC) -n $(VERSION) -r $(SRAMSIZE) -t $(TITLE)
 

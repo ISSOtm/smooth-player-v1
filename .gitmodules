@@ -1,6 +1,0 @@
-[submodule "src/include/hardware.inc"]
-	path = src/include/hardware.inc
-	url = https://github.com/gbdev/hardware.inc.git
-[submodule "src/smooth-player"]
-	path = src/smooth-player
-	url = https://github.com/ISSOtm/smooth-player.git

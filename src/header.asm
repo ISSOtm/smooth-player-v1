@@ -1,5 +1,5 @@
 
-INCLUDE "src/include/hardware.inc/hardware.inc"
+INCLUDE "hardware.inc"
 
 
 SECTION "Header", ROM0[$100]

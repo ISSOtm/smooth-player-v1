@@ -1,8 +1,6 @@
-# smooth-player-demo
+# smooth-player-v1
 
-Make sure you clone this repository recursively!
-It uses two submodules, `src/include/hardware.inc` and `src/smooth-player`.
-Note that downloading a ZIP of this repo won't work for the same reason.
+The latest version lives at https://github.com/ISSOtm/smooth-player
 
 To compile the project, make sure you have RGBDS (at least 0.5.0), GNU Make and Python 3, and run `make` within this directory.
 Then, you can just run `bin/smooth-player.gb`!

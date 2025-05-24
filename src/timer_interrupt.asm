@@ -1,5 +1,5 @@
 
-INCLUDE "src/include/hardware.inc/hardware.inc"
+INCLUDE "hardware.inc"
 
 
 ; Here is how you set up a timer int appropriately
